@@ -1,0 +1,28 @@
+@import "img_bodys";
+.deesparati{
+    background-image: $img-body-esparati;
+}
+
+.card{
+    @extend .sombras;
+}
+
+   
+#galeria 
+{ 
+    .col-lg4
+    {
+   /* margin: 0 !important;*/
+    padding: 25px;
+    }
+
+    img
+    {
+       @extend .img_generales; 
+    }   
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+}
+
